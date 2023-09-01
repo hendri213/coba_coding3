@@ -3,11 +3,12 @@ import Image from 'next/image'
 const Index = () => {
   return (
     <div className="flex items-center justify-between">
-        <div className="flex flex-col mb-[160px] content">
-          <p className="text-5xl">Halo,</p>
-          <h2 className='text-5xl mt-3'>Nama Saya <span className="font-semibold">Hendri Setiawan</span></h2>
-          <p className="text-3xl mt-3  animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform  text">Saya adalah seorang Frontend Developer</p>
+        <div className="flex flex-col mb-[160px]">
+          <p className="md:text-5xl text-xl">Halo,</p>
+          <h2 className='md:text-5xl text-xl mt-3'>Nama Saya <span className="font-semibold">Hendri Setiawan</span></h2>
+          <p className="md:text-3xl text-xl mt-3">Saya adalah seorang Frontend Developer</p>
         </div>
+        
         <div className="flex">
         <Image
          src="/profile.png"

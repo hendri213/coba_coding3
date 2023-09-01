@@ -9,23 +9,3 @@ body {
    background-size: cover;
 
 }
-
-.content { display: inline-block; }
-
-.text {
-    width: 100%;
-    overflow: hidden;
-    animation: 
-       typing 2s steps(18),
-       cursor .4s step-end infinite alternate;
-}
-
-/* cursor blinking */
-@keyframes cursor {
-    50% { border-color: transparent }
-}
-
-/* typing effect */
-@keyframes typing {
-    from { width: 0 }
-}

@@ -1,5 +1,6 @@
 import './globals.css'
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 export default function RootLayout({ children }) {
   return (
@@ -7,7 +8,8 @@ export default function RootLayout({ children }) {
       <body className='text-white'>
         <main>
           <Header />
-          {children}  
+           {children}  
+          <Footer />
         </main> 
       </body>
     </html>
